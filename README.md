@@ -1,7 +1,5 @@
 ### Hi there 👋
 [![DeaglePC's GitHub stats](https://github-readme-stats.vercel.app/api?username=DeaglePC&show_icons=true&count_private=true)](https://github.com/anuraghazra/github-readme-stats)
-[![DeaglePC's GitHub stats](https://github-readme-stats.vercel.app/api?username=DeaglePC)](https://github.com/anuraghazra/github-readme-stats)
-
 <!--
 **DeaglePC/DeaglePC** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
