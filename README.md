@@ -72,9 +72,9 @@
 <div align="center">
   <!-- 贪吃蛇动画 (依赖 snake.yml Action 生成，推送到 output 分支) -->
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/DeaglePC/DeaglePC/output/dist/github-contribution-grid-snake-dark.svg">
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/DeaglePC/DeaglePC/output/dist/github-contribution-grid-snake.svg">
-    <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/DeaglePC/DeaglePC/output/dist/github-contribution-grid-snake.svg">
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/DeaglePC/DeaglePC/output/github-contribution-grid-snake-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/DeaglePC/DeaglePC/output/github-contribution-grid-snake.svg">
+    <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/DeaglePC/DeaglePC/output/github-contribution-grid-snake.svg">
   </picture>
 </div>
 
