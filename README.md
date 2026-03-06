@@ -17,8 +17,7 @@
 - 🌱 我正在学习 **前沿技术栈** / I’m currently learning new tech stacks.
 - 👯 我希望能与更多开发者合作 / I’m looking to collaborate with other developers.
 - 🤔 如果你对我的项目有疑问，欢迎提问 / Ask me about my projects.
-- 📫 联系方式 / How to reach me: [在此填写你的邮箱或社交链接]
-- ⚡ 趣味事实 / Fun fact: **Code is poetry.**
+- 🐆 我有一只猫 / Fun fact: **Code is poetry.**
 
 ---
 
@@ -44,15 +43,14 @@
   </p>
 </div>
 
-*(提示：您可以根据实际情况增删上面的技术栈图标)*
 
 ---
 
 ### 📊 GitHub 统计 / GitHub Stats
 
 <div align="center">
-  <!-- 基础/旧版面板 (作为 fallback) -->
-  <img src="https://github-readme-stats.vercel.app/api?username=DeaglePC&show_icons=true&count_private=true&theme=radical" alt="DeaglePC's GitHub stats" />
+  <!-- 自定义总 Star 数徽章 -->
+  <img src="https://raw.githubusercontent.com/DeaglePC/DeaglePC/output/stars_badge.svg" alt="Total Stars" />
 
   <br/><br/>
 
