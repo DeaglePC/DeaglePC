@@ -42,6 +42,6 @@ jobs:
           plugin_habits_charts: yes
           
           # 插件：活跃活动
-          plugin_activity: yes
+          plugin_activity: no
           plugin_activity_limit: 5
           plugin_activity_days: 14
