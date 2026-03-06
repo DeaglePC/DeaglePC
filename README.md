@@ -17,7 +17,7 @@
 - 🌱 我正在学习 **前沿技术栈** / I’m currently learning new tech stacks.
 - 👯 我希望能与更多开发者合作 / I’m looking to collaborate with other developers.
 - 🤔 如果你对我的项目有疑问，欢迎提问 / Ask me about my projects.
-- 🐆 我有一只猫 / Fun fact: **Code is poetry.**
+- 🐆 我有一只孟加拉豹猫 / I have a Bengal cat.
 
 ---
 

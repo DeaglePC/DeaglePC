@@ -34,8 +34,8 @@ jobs:
           # 插件：代码行数
           plugin_lines: yes
           
-          # 插件：活跃时段
-          plugin_habits: yes
+          # 插件：活跃时段 (当前由于 API 限制可能报错，先禁用)
+          plugin_habits: no
           plugin_habits_from: 200
           plugin_habits_days: 14
           plugin_habits_facts: yes
