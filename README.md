@@ -24,7 +24,6 @@
 ### 🛠️ 技术栈 / Tech Stack
 
 <div align="center">
-  <img src="https://default-github-readme-stats.vercel.app/api/pin/?username=DeaglePC&repo=DeaglePC&theme=radical" alt="Repo Pinned" style="display: none;">
   <p>
     <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" />
     <img src="https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white" />
@@ -49,9 +48,7 @@
 ### 📊 GitHub 统计 / GitHub Stats
 
 <div align="center">
-  <!-- 自定义总 Star 数徽章 -->
-  <img src="https://raw.githubusercontent.com/DeaglePC/DeaglePC/output/stars_badge.svg" alt="Total Stars" />
-
+<img src="https://raw.githubusercontent.com/DeaglePC/DeaglePC/output/stars_badge.svg" alt="Total Stars" />
   <br/><br/>
 
   <!-- GitHub Metrics 动态面板 (依赖 metrics.yml Action 生成) -->

@@ -32,26 +32,36 @@ def get_total_stars(username, token):
 
 def generate_svg(stars):
     stars_str = str(stars)
-    # Using a modern flat design badge
-    return f"""<svg xmlns="http://www.w3.org/2000/svg" width="110" height="20">
-  <linearGradient id="b" x2="0" y2="100%">
-    <stop offset="0" stop-color="#bbb" stop-opacity=".1"/>
-    <stop offset="1" stop-opacity=".1"/>
-  </linearGradient>
-  <mask id="a">
-    <rect width="110" height="20" rx="3" fill="#fff"/>
-  </mask>
-  <g mask="url(#a)">
-    <path fill="#555" d="M0 0h70v20H0z"/>
-    <path fill="#eebb00" d="M70 0h40v20H70z"/>
-    <path fill="url(#b)" d="M0 0h110v20H0z"/>
+    # 动态适应文字长度，基础文字宽估计
+    text_length = len(stars_str)
+    font_size = 50 if text_length <= 3 else 40 if text_length == 4 else 30
+    
+    return f"""<svg xmlns="http://www.w3.org/2000/svg" width="200" height="200" viewBox="0 0 200 200">
+  <defs>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="4" stdDeviation="6" flood-color="#000000" flood-opacity="0.3"/>
+    </filter>
+    <linearGradient id="starGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#FFE45E;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#FFB703;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <g filter="url(#shadow)">
+    <!-- 绘制一个标准的五角星, 中心在(100,100), 外径90, 内径35 -->
+    <polygon points="100,10 128,66 190,75 145,119 155,181 100,152 45,181 55,119 10,75 72,66" 
+             fill="url(#starGrad)" stroke="#FB8500" stroke-width="4" stroke-linejoin="round"/>
   </g>
-  <g fill="#fff" text-anchor="middle" font-family="DejaVu Sans,Verdana,Geneva,sans-serif" font-size="11">
-    <text x="35" y="15" fill="#010101" fill-opacity=".3">Total Stars</text>
-    <text x="35" y="14">Total Stars</text>
-    <text x="90" y="15" fill="#010101" fill-opacity=".3">{stars_str}</text>
-    <text x="90" y="14">{stars_str}</text>
-  </g>
+  
+  <text x="100" y="115" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" 
+        font-size="{font_size}" font-weight="900" fill="#202A44" text-anchor="middle" dominant-baseline="middle">
+    {stars_str}
+  </text>
+  
+  <text x="100" y="150" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" 
+        font-size="16" font-weight="bold" fill="#B15700" text-anchor="middle" dominant-baseline="middle">
+    STARS
+  </text>
 </svg>"""
 
 if __name__ == "__main__":
